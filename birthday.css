@@ -66,3 +66,9 @@ li {
     color: antiquewhite;
     margin-bottom: 0.5rem;
 }
+
+footer {
+    color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+}
