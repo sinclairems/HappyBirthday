@@ -1,0 +1,68 @@
+/* reference happybirthday.html */
+
+/* CSS for the birthday page */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #1A5276;
+    color:antiquewhite
+}
+
+main {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.poem {
+  text-align: center;
+}
+
+.list {
+  text-align: center; /* Center the container */
+}
+
+ol {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style-type: decimal; /* Make sure numbers are visible */
+  column-count: 2; /* Create two columns */
+  column-gap: 1px; /* Adjust spacing between columns */
+}
+
+li {
+  text-align: center;
+  display: inline-block; /* Display list items in a row */
+  width: 100%; /* Make sure list items take up full width */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 10px;  /* Spacing between GIFs */
+}
+
+.grid img {
+  width: 100%; 
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;  /* Crop GIFs larger than container*/
+  border-radius: 5px; /* Add a bit of curve to the edges */
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+li {
+    font-size: 1.5rem;
+    color: antiquewhite;
+    margin-bottom: 0.5rem;
+}
